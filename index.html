@@ -82,6 +82,31 @@
         .game p {
             line-height: 1.6;
         }
+        .post-blog-btn {
+            background-color: #ffcc00;
+            color: #121212;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0px 0px 12px rgba(255, 204, 0, 0.7);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .post-blog-btn:hover {
+            transform: scale(1.1);
+            background-color: #e6b800;
+            box-shadow: 0px 0px 18px rgba(255, 204, 0, 1);
+        }
+        
+        .post-blog-btn:focus {
+            outline: none;
+        }
+
     </style>
 </head>
 <body>
@@ -91,14 +116,12 @@
         
         <div class="game-grid">
             <!-- The Witcher 3 -->
-            <a class="game" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">
-                <a class="game" href="witcher_3.html" target="_self">
+            <a class="game" href="witcher_3.html" target="_self">
                 <h3>The Witcher 3: Wild Hunt</h3>
                 <p><strong>Year:</strong> 2015</p>
                 <p><strong>Genre:</strong> Action RPG, Open World, Fantasy</p>
                 <p><strong>Developer:</strong> CD Projekt Red</p>
                 <p>Step into the shoes of Geralt of Rivia, a monster hunter searching for his adopted daughter in a war-torn world filled with mythical creatures, political intrigue, and dark magic.</p>
-                </a>
             </a>
 
             <!-- Overwatch -->
@@ -173,6 +196,9 @@
                 <p>In this Dungeons & Dragons-inspired RPG, players make impactful choices that shape the fate of their party and the world.</p>
             </a>
         </div>
+        <a href="https://youtu.be/MsmLsAb1UsE?t=17">
+            <input type="button" class="post-blog-btn" value="Post a Blog">
+        </a>
     </div>
 </body>
 </html>
