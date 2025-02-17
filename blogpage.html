@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>The Greatest Games of the Decade</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: beige;
+            background-image: url('images/background.jpg');
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #ffcc00;
+            text-align: center;
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .game-grid a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .game {
+            background-color: rgba(0, 0, 0, 0.7);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+        .game:hover {
+            transform: scale(1.05);
+            background-color: rgba(0, 0, 0, 0.7);
+            background-blend-mode: multiply;
+            text-shadow: 2px 2px 4px black;
+        }
+        .game:nth-child(1):hover {
+            background-image: url('images/Witcher_3.jpg');
+        }
+        .game:nth-child(2):hover {
+            background-image: url('images/overwatch.jpg');
+        }
+        .game:nth-child(3):hover {
+            background-image: url('images/The_Legend_of_Zelda_Breath_of_the_Wild.jpg');
+        }
+        .game:nth-child(4):hover {
+            background-image: url('images/God_of_War.jpg');
+        }
+        .game:nth-child(5):hover {
+            background-image: url('images/Sekiro.jpg');
+        }
+        .game:nth-child(6):hover {
+            background-image: url('images/Last_of_Us_part_2.jpg');
+        }
+        .game:nth-child(7):hover {
+            background-image: url('images/It_Takes_Two_cover_art.png');
+        }
+        .game:nth-child(8):hover {
+            background-image: url('images/Elden_Ring.jpg');
+        }
+        .game:nth-child(9):hover {
+            background-image: url('images/Baldurs_gate_3.jpg');
+        }
+        .game h3 {
+            color: #ffcc00;
+        }
+        .game p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GOTY Winners from 2015 to 2023</h1>
+        <p>Well... Each year a game is selected as the best game out of all the games which has released that year. Here are the list of the games that won the GOTY title from 2015 to 2023.</p>
+        
+        <div class="game-grid">
+            <!-- The Witcher 3 -->
+            <a class="game" href="witcher_3.html" target="_self">
+                <h3>The Witcher 3: Wild Hunt</h3>
+                <p><strong>Year:</strong> 2015</p>
+                <p><strong>Genre:</strong> Action RPG, Open World, Fantasy</p>
+                <p><strong>Developer:</strong> CD Projekt Red</p>
+                <p>Step into the shoes of Geralt of Rivia, a monster hunter searching for his adopted daughter in a war-torn world filled with mythical creatures, political intrigue, and dark magic.</p>
+            </a>
+
+            <!-- Overwatch -->
+            <a class="game" href="overwatch.html" target="_self">
+                <h3>Overwatch</h3>
+                <p><strong>Year:</strong> 2016</p>
+                <p><strong>Genre:</strong> FPS, Multiplayer</p>
+                <p><strong>Developer:</strong> Blizzard Entertainment</p>
+                <p>Overwatch introduced the world to a team-based hero shooter with a diverse cast of characters, each bringing unique abilities and playstyles to fast-paced, objective-based battles.</p>
+            </a>
+
+            <!-- The Legend of Zelda: Breath of the Wild -->
+            <a class="game" href="zelda.html">
+                <h3>The Legend of Zelda: Breath of the Wild</h3>
+                <p><strong>Year:</strong> 2017</p>
+                <p><strong>Genre:</strong> Action-Adventure, Open World</p>
+                <p><strong>Developer:</strong> Nintendo EPD</p>
+                <p>Link awakens in a ruined kingdom and must explore a vast open world, uncovering secrets and regaining his strength to defeat the evil Calamity Ganon.</p>
+            </a>
+
+            <!-- God of War -->
+            <a class="game" href="godofwar.html">
+                <h3>God of War</h3>
+                <p><strong>Year:</strong> 2018</p>
+                <p><strong>Genre:</strong> Action, Adventure, Mythology</p>
+                <p><strong>Developer:</strong> Santa Monica Studio</p>
+                <p>Kratos, now a father, embarks on a deeply personal journey with his son, Atreus, in a world inspired by Norse mythology.</p>
+            </a>
+
+            <!-- Sekiro: Shadows Die Twice -->
+            <a class="game" href="sekiro.html">
+                <h3>Sekiro: Shadows Die Twice</h3>
+                <p><strong>Year:</strong> 2019</p>
+                <p><strong>Genre:</strong> Action, Adventure, Souls-like</p>
+                <p><strong>Developer:</strong> FromSoftware</p>
+                <p>Play as a shinobi warrior on a quest to rescue his kidnapped lord in a brutal, fast-paced action game that tests reflexes and precision.</p>
+            </a>
+
+            <!-- The Last of Us Part II -->
+            <a class="game" href="lastofus.html">
+                <h3>The Last of Us Part II</h3>
+                <p><strong>Year:</strong> 2020</p>
+                <p><strong>Genre:</strong> Action-Adventure, Survival</p>
+                <p><strong>Developer:</strong> Naughty Dog</p>
+                <p>Ellie embarks on a revenge-driven journey, confronting the moral consequences of her actions in a hauntingly beautiful post-apocalyptic world.</p>
+            </a>
+
+            <!-- It Takes Two -->
+            <a class="game" href="ittakestwo.html">
+                <h3>It Takes Two</h3>
+                <p><strong>Year:</strong> 2021</p>
+                <p><strong>Genre:</strong> Action, Adventure, Puzzle, Co-op</p>
+                <p><strong>Developer:</strong> Hazelight Studios</p>
+                <p>A couple on the brink of divorce is transformed into dolls and must navigate whimsical, ever-changing levels to find their way back to their daughter.</p>
+            </a>
+
+            <!-- Elden Ring -->
+            <a class="game" href="eldenring.html">
+                <h3>Elden Ring</h3>
+                <p><strong>Year:</strong> 2022</p>
+                <p><strong>Genre:</strong> Action RPG, Open World</p>
+                <p><strong>Developer:</strong> FromSoftware</p>
+                <p>Set in a massive, lore-rich world, players must explore, battle formidable foes, and restore the Elden Ring.</p>
+            </a>
+
+            <!-- Baldur's Gate 3 -->
+            <a class="game" href="baldur_gate.html">
+                <h3>Baldur's Gate 3</h3>
+                <p><strong>Year:</strong> 2023</p>
+                <p><strong>Genre:</strong> RPG, Strategy</p>
+                <p><strong>Developer:</strong> Larian Studios</p>
+                <p>In this Dungeons & Dragons-inspired RPG, players make impactful choices that shape the fate of their party and the world.</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
