@@ -87,9 +87,17 @@
         <div class="review-form">
             <h2>Submit Your Review</h2>
             <form action="thankyou.html" method="GET">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="review" rows="5" placeholder="Write your review here..." required></textarea>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here..." required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email here..." required>
+
+                <label for="game">Game:</label>
+                <input type="text" id="game" name="game" placeholder="Enter the name of the game here..." required>
+                
+                <label for="review">Your Review</label>
+                <textarea id="review" name="review" rows="5" placeholder="Write your review here..." required></textarea>
                 <button type="submit" class="btn">Submit Review</button>
             </form>
         </div>
@@ -100,26 +108,31 @@
                 <h3>Aneesh</h3>
                 <p><strong>Game:</strong> Ghost of Tsushima </p>
                 <p>"Even tho I have 100% completion, let me replay the game for no reason"</p>
+                <p><small>Submitted on: 17/02/2025, 9:48:24 PM</small></p>
             </div>
             <div class="review">
                 <h3>Sriniketh</h3>
                 <p><strong>Game:</strong> God of War </p>
                 <p>"Grass??? What is grass?"</p>
+                <p><small>Submitted on: 17/02/2025, 2:12:38 AM</small></p>
             </div>
             <div class="review">
                 <h3>Nikil</h3>
                 <p><strong>Game:</strong> Call of Duty:Warzone </p>
                 <p>"Bro let me land atleast!!!"</p>
+                <p><small>Submitted on: 16/02/2025, 8:43:51 PM</small></p>
             </div>
             <div class="review">
                 <h3>Ashith</h3>
                 <p><strong>Game:</strong> Smash Karts </p>
                 <p>"I swear!!! This is the best (only) game I've played till date..."</p>
+                <p><small>Submitted on: 15/02/2025, 11:04:02 AM</small></p>
             </div>
             <div class="review">
                 <h3>Aayan</h3>
                 <p><strong>Game:</strong> Candy Crush </p>
                 <p>"Told my gamer friends that I play Candy Crush, they haven't talked to me since then..."</p>
+                <p><small>Submitted on: 14/02/2025, 6:27:58 PM</small></p>
             </div>
         </div>
     </div>
