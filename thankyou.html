@@ -13,7 +13,8 @@
             text-align: center;
         }
         .container {
-            width: 50%;
+            max-width: 600px;
+            width: 90%;
             margin: auto;
             padding: 40px;
             background-color: rgba(0, 0, 0, 0.8);
@@ -27,7 +28,17 @@
         p {
             font-size: 18px;
         }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
         .btn {
+            flex: 1;
+            min-width: 150px;
+            max-width: calc(50% - 5px);
             background-color: #ffcc00;
             color: #121212;
             font-size: 18px;
@@ -39,8 +50,11 @@
             cursor: pointer;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
+            text-align: center;
+        }
+        .btn:active {
+            transform: scale(0.9);
+            box-shadow: 0px 0px 8px rgba(255, 204, 0, 0.5);
         }
         .btn:hover {
             transform: scale(1.1);
@@ -53,8 +67,10 @@
     <div class="container">
         <h1>Thank You for Your Review!</h1>
         <p>I know you don't have a life, but yea seriously thank you for your review...</p>
-        <a href="index.html" class="btn">Back to Home</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn" target="_blank">Leave another review</a>
+        <div class="button-container">
+            <a href="index.html" class="btn" target="_self">Back to Home</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn" target="_blank">Leave another review</a>
+        </div>
     </div>
 </body>
 </html>
